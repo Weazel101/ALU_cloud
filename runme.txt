@@ -1,4 +1,4 @@
-ssh -i Glenn2-key Glenn2@35.231.199.181
+ssh -i YOURNAME-key YOURNAME@35.231.199.181
 git clone https://github.com/GMoncrieff/ALU_cloud
 export PATH=/opt/anaconda/bin:$PATH
 cd ALU_cloud
@@ -8,3 +8,5 @@ chmod +x prep1.sh
 ./prep1.sh
 jupyter notebook password
 jupyter notebook --no-browser --port=8000
+
+gsutil cp PLOT_HLT1.jpg gs://alu-aiip-hlt/plots/
