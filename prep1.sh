@@ -1,6 +1,4 @@
 #!/bin/sh
-conda create --yes --name ds python=3.5
-source activate ds
 jupyter notebook --generate-config
 echo "c = get_config()" >> ~/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.ip = '*'" >> ~/.jupyter/jupyter_notebook_config.py
