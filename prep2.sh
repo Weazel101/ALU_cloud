@@ -1,6 +1,3 @@
-#!/bin/sh
-export PATH=/opt/anaconda/bin:$PATH
-conda create --yes --name ds python=3.5
 export PATH=/opt/anaconda/bin:$PATH 
 source activate ds
 jupyter notebook --generate-config
