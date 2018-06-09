@@ -5,7 +5,7 @@
 ### Run the following commands to complete the assignment:  
 
 Clone this repo to get the code and data you need  
-`git clone https://github.com/GMoncrieff/ALU_cloud
+`git clone https://github.com/GMoncrieff/ALU_cloud`
 
 Copy the data you need from Google Cloud Storage  
 `gsutil cp gs://alu-aiip-hlt/mpg_data.csv mpg_data_csv`
