@@ -1,11 +1,11 @@
-# ALU_cloud  
+# Jupiter_Notebook_on_Google_Cloud  
   
-## files for ALU cloud computing HLT assignment  
+## files for setting up a Python based Jupyter notebook on Google Cloud
   
-### Run the following commands to complete the assignment:  
+### Run the following commands to up you virtual Jupyter Notebook on Google Cloud
 
 Clone this repo to get the code and data you need  
-`git clone https://github.com/GMoncrieff/ALU_cloud`
+`git clone https://github.com/Weazel101/Jupiter_Notebook_on_Google_Cloud
 
 Add anaconda to your terminal path  
 `export PATH=/opt/anaconda/bin:$PATH`  
@@ -30,5 +30,18 @@ Set a password for your jupyter session
 Launch jupyter  
 `jupyter notebook --no-browser --port=8000`  
 
-After completing the exercise, push your results to google cloud storage:  
-`gsutil cp PLOT_HLT1.jpg gs://alu-aiip-hlt/plots/`  
+## Congradulations your Google Cloud VM is NOW Running Jupiter
+
+#### Head over to [IP adress of your VM]:8000 To access your Jupiter environment
+
+### Once the System is set up jou only have to run the following command to Launch Your Notebook on the Virtual Machine
+
+Launch jupyter  
+`jupyter notebook --no-browser --port=8000`  
+
+## Copy files from Google Cloud Storage to your VM
+Navigate to the folder you want to copy the file to
+`gsutil cp gs://[Path and filename you want to copy] [Filename for the VM]`
+
+## Copy files from your VM to Google Cloud Storage
+`gsutil cp [Filename you want to copy] gs://[Path and Filename on Google Cloud Storage]`
