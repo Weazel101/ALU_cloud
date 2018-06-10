@@ -7,14 +7,14 @@
 Clone this repo to get the code and data you need  
 `git clone https://github.com/GMoncrieff/ALU_cloud`
 
-Copy the data you need from Google Cloud Storage  
-`gsutil cp gs://alu-aiip-hlt/mpg_data.csv mpg_data_csv`
-
 Add anaconda to your terminal path  
 `export PATH=/opt/anaconda/bin:$PATH`  
   
 Navigate to the project home directory  
-`cd ALU_cloud`  
+`cd ALU_cloud` 
+
+Copy the data you need from Google Cloud Storage  
+`gsutil cp gs://alu-aiip-hlt/mpg_data.csv mpg_data.csv`
   
 Create a new python environment for this project, then activate it  
 `conda create --yes --name ds python=3.5`  
