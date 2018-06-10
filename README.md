@@ -5,7 +5,7 @@
 ### Run the following commands to up you virtual Jupyter Notebook on Google Cloud
 
 Clone this repo to get the code and data you need  
-`git clone https://github.com/Weazel101/Jupiter_Notebook_on_Google_Cloud
+`git clone https://github.com/Weazel101/Jupiter_Notebook_on_Google_Cloud`
 
 Add anaconda to your terminal path  
 `export PATH=/opt/anaconda/bin:$PATH`  
@@ -41,6 +41,7 @@ Launch jupyter
 
 ## Copy files from Google Cloud Storage to your VM
 Navigate to the folder you want to copy the file to
+
 `gsutil cp gs://[Path and filename you want to copy] [Filename for the VM]`
 
 ## Copy files from your VM to Google Cloud Storage
